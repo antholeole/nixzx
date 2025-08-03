@@ -71,4 +71,3 @@ to get ide support, run `npm i google/zx` in the root of your project. Unfortuna
 ## out of scope
 
 - `nixzx` does not allow you to add other npm packages (prs welcome).
-- non-`mts` extensions.
