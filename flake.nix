@@ -36,7 +36,7 @@
           touch $out
         '';
     in {
-      # simple = checkExit0 "simple";
+      simple = checkExit0 "simple";
       multifile = checkExit0 "multifile";
     };
 
