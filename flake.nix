@@ -18,6 +18,8 @@
 
     overlays.nixzx = self.overlays.default;
 
+    lib.${system}.writeZxApplication = import ./nixzx.nix (import nixpkgs {inherit system;});
+
     checks.${system} = let
       pkgs = import nixpkgs {
         inherit system;
