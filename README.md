@@ -4,6 +4,8 @@ a simple wrapper to be able to run [zx](https://github.com/google/zx) scripts.
 
 ## Using
 
+_for users who don't want to use an overlay, this flake exposes `lib.writeZxApplication`, used like `inputs.${system}.lib.writeZxApplication` with the same API as the function the overlay exposes._
+
 first, add it as an overlay:
 
 ```nix
